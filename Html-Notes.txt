@@ -1,0 +1,138 @@
+HTML – Hypertext Markup Language
+
+1. What is HTML and Why do we use HTML?
+- HTML is the standard language used to create and design the structure of web pages.
+- It structures content on the web (text, images, buttons, forms).
+- It makes web pages readable and organized.
+- It is the foundation of every website (before adding styles with CSS or functionality with JavaScript).
+Program: https://codepen.io/Kiranmai-Ubbani/pen/bNNoEby
+
+2. <!DOCTYPE html>
+- DOCTYPE stands for Document Type.
+- Used for browser understanding purposes.
+
+3. What are Tags and Elements?
+- A tag defines an element on a web page.
+- Tags usually come in pairs: opening <tag> and closing </tag>.
+- Common Tags:
+  h1 to h6 – Headings
+  p – Paragraph
+  a – Anchor (link)
+  img – Image
+  div – Division
+  span – Inline container
+  br – Line break
+
+4. Semantic Elements:
+- Define the meaning of the content.
+- Examples: header, nav, section, aside, article, main, footer, figure, summary, time
+
+5. Non-Semantic Elements:
+- Do not describe their content.
+- Examples: div, span, b, i, hr, kbd, p, q, td
+
+6. Difference between div and span:
+- div is a block-level element (starts on a new line).
+- span is an inline element (does not start on a new line).
+
+7. Iframe and X-Frame:
+- iframe embeds another HTML page inside the current one.
+- x-frame options prevent a page from being embedded in an iframe.
+Syntax: <iframe src="url" title=""></iframe>
+
+8. Attributes:
+- Provide additional information about elements.
+- Syntax: name="value"
+Examples:
+  href: hyperlink (<a href="URL">Link</a>)
+  src: image source (<img src="image.jpg">)
+  alt: alternate text (<img alt="desc">)
+  style: inline styles (<p style="color:red">Text</p>)
+  lang: page language (<html lang="en">)
+
+9. Formatting Elements:
+<b> – Bold
+<strong> – Important
+<i> – Italic
+<em> – Emphasis
+<mark> – Highlight
+<small> – Small text
+<del> – Deleted text
+<ins> – Inserted text
+<sub> – Subscript
+<sup> – Superscript
+Program: https://codepen.io/Kiranmai-Ubbani/pen/zxxEqMX?editors=1000
+
+10. Comments:
+<!-- This is a comment -->
+
+11. Links:
+- Allow navigation between documents/pages.
+Syntax: <a href="URL">Link text</a>
+
+12. Link Attributes:
+- target="_blank" – Opens in new tab
+- target="_self" – Default, same tab
+- target="_parent", "_top"
+
+13. Absolute vs Relative URLs:
+- Absolute: Full URL (e.g., https://example.com)
+- Relative: Path within the site
+Example: https://codepen.io/Kiranmai-Ubbani/pen/QwwqEOY
+
+14. Images:
+- <img src="image.jpg" alt="description">
+Program: https://codepen.io/Kiranmai-Ubbani/pen/LEEzgxa
+
+15. Image Map:
+- Interactive image with clickable areas.
+<map> tag + <area> tags + usemap attribute
+Example: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_map2
+
+16. Background:
+- CSS background-image property
+- background-repeat: no-repeat
+- background-size: cover
+- background-attachment: fixed
+Example: https://codepen.io/Kiranmai-Ubbani/pen/zxxEmay?editors=1000
+
+17. Favicon:
+- Icon shown on the browser tab
+<link rel="icon" href="/images/favicon.ico">
+
+18. Responsive Web Design:
+- Makes websites look good on all devices (desktop, tablet, phone)
+
+19. Meta Tags:
+- Provide metadata to the browser (SEO, character set, viewport)
+Example: <meta name="viewport" content="width=device-width, initial-scale=1">
+
+20. Viewport:
+- Sets dimensions and scaling instructions for the browser.
+Example: https://codepen.io/Kiranmai-Ubbani/pen/pvvWqwg?editors=1000
+
+21. Input Tags:
+Program: https://codepen.io/Kiranmai-Ubbani/pen/PwwJXxM?editors=1100
+
+22. HTML Audio:
+<audio controls>
+  <source src="audio.ogg" type="audio/ogg">
+  <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
+23. HTML Video:
+<video width="320" height="240" autoplay>
+  <source src="movie.mp4" type="video/mp4">
+  <source src="movie.ogg" type="video/ogg">
+</video>
+
+24. HTML APIs:
+- Web APIs allow interaction with browser features.
+Examples:
+  - Geolocation API
+  - Drag and Drop API
+  - Web Storage API
+  - Web Workers API
+  - Server-Sent Events
+  - Canvas API
+"""
